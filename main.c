@@ -11,6 +11,7 @@ int** megepitSzomszedsagiMatrix();
 
 int main() {
     int numberofPoints;
+    //Test2
     Point* graph = megepitSzomszedsagilista(&numberofPoints);
 
     for (int i = 1; i <= numberofPoints; ++i) {
