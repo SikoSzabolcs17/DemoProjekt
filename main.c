@@ -11,10 +11,10 @@ int** megepitSzomszedsagiMatrix();
 
 int main() {
     int numberofPoints;
-    //Test2
     Point* graph = megepitSzomszedsagilista(&numberofPoints);
 
     for (int i = 1; i <= numberofPoints; ++i) {
+
         printf("%d: %ddb:",i,graph[i].degree);
         for (int j = 0; j < graph[i].degree; ++j) {
             printf("%d ",graph[i].neighbours[j]);
